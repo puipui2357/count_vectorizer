@@ -6,8 +6,8 @@ import matplotlib.pyplot as plt
 import matplotlib.ticker as ticker
 
 # Load your logistic regression model and CountVectorizer
-lr_loaded = load('logistic_regression_model.joblib')
-cv_loaded = load('count_vectorizer.joblib')
+lr_loaded = load('lr.joblib')
+cv_loaded = load('cv.joblib')
 
 # Streamlit application starts here
 def main():
